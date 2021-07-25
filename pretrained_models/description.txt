@@ -1,0 +1,39 @@
+Pretrained UNET - models for semantic segmentaion of mitochondria
+
+X_train shape: (3480, 256, 256, 3)
+X_test shape: (480, 256, 256, 3)
+y_train shape: (3480, 256, 256, 1)
+y_test shape: (480, 256, 256, 1)
+
+
+
+/***************************** mitochondria_model_92 *************************************/
+
+Last epoch of training:
+
+Epoch 00009: val_loss did not improve from 0.01851
+Epoch 10/50
+196/196 [==============================] - 29s 150ms/step - loss: 0.0137 - accuracy: 0.9944 - val_loss: 0.0192 - val_accuracy: 0.9937
+
+IOU score is: 0.9191046009140069
+
+/*******************************************************************************************/
+
+
+
+/***************************** mitochondria_model_89 *************************************/
+
+Last epoch of training:
+
+Epoch 00010: val_loss did not improve from 0.03674
+Epoch 11/50
+196/196 [==============================] - 29s 147ms/step - loss: 0.0272 - accuracy: 0.9892 - val_loss: 0.0465 - val_accuracy: 0.9835
+
+Epoch 00011: val_loss did not improve from 0.03674
+
+IOU score is: 0.8948266402536427
+
+/*******************************************************************************************/
+
+
+
